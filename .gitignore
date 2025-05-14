@@ -1,0 +1,35 @@
+# Xcode
+*.xcworkspace
+xcuserdata/
+DerivedData/
+build/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# macOS metadata
+.DS_Store
+
+# Swift Package Manager
+/.build
+/Packages
+Package.resolved
+
+# Logs
+*.log
+
+# App bundles (optional if you build locally)
+*.app
+
+# User settings (optional: include if you want reproducible builds)
+/*.xcuserstate
+
+# Fastlane or other tools (optional)
+/fastlane/report.xml
+fastlane/report.html
+
+# CocoaPods (if using)
+/Pods/
+
+# Secrets
+Secrets.xcconfig
+

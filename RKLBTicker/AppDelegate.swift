@@ -20,7 +20,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     var totalReturnField: NSTextField!
     
-    let updateInterval = 120; // Updates every 2 minutes
+    let updateInterval: TimeInterval = 120; // Updates every 2 minutes
     var stockUpdateTimer: Timer?
         
 
@@ -121,7 +121,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func startPollingStockPrice() {
         stockUpdateTimer?.invalidate()
-        stockUpdateTimer = Timer.scheduledTimer(withTimeInterval: 120, repeats: true) { _ in
+        stockUpdateTimer = Timer.scheduledTimer(withTimeInterval: self.updateInterval, repeats: true) { _ in
             self.fetchStockPrice()
         }
         RunLoop.current.add(stockUpdateTimer!, forMode: .common)

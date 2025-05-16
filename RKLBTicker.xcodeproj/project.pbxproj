@@ -12,66 +12,23 @@
 		AEA4391A2DD4DA4800BCD1C5 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AEA439192DD4DA4800BCD1C5 /* Secrets.xcconfig */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AE9DEB5E2DD395ED000DE335 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE9DEB472DD395EB000DE335 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE9DEB4E2DD395EB000DE335;
-			remoteInfo = MenuTicker;
-		};
-		AE9DEB682DD395ED000DE335 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE9DEB472DD395EB000DE335 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE9DEB4E2DD395EB000DE335;
-			remoteInfo = MenuTicker;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		AE9DEB4F2DD395EB000DE335 /* MenuTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE9DEB5D2DD395ED000DE335 /* MenuTickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuTickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE9DEB672DD395ED000DE335 /* MenuTickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuTickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9DEB4F2DD395EB000DE335 /* RKLB Ticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RKLB Ticker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9DEB7A2DD3962B000DE335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEA439172DD4DA0800BCD1C5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AEA439192DD4DA4800BCD1C5 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AE9DEB512DD395EB000DE335 /* MenuTicker */ = {
+		AE9DEB512DD395EB000DE335 /* RKLBTicker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MenuTicker;
-			sourceTree = "<group>";
-		};
-		AE9DEB602DD395ED000DE335 /* MenuTickerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MenuTickerTests;
-			sourceTree = "<group>";
-		};
-		AE9DEB6A2DD395ED000DE335 /* MenuTickerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MenuTickerUITests;
+			path = RKLBTicker;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AE9DEB4C2DD395EB000DE335 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE9DEB5A2DD395ED000DE335 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE9DEB642DD395ED000DE335 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,9 +44,7 @@
 				AEA439172DD4DA0800BCD1C5 /* .gitignore */,
 				AEA439192DD4DA4800BCD1C5 /* Secrets.xcconfig */,
 				AE9DEB7A2DD3962B000DE335 /* Info.plist */,
-				AE9DEB512DD395EB000DE335 /* MenuTicker */,
-				AE9DEB602DD395ED000DE335 /* MenuTickerTests */,
-				AE9DEB6A2DD395ED000DE335 /* MenuTickerUITests */,
+				AE9DEB512DD395EB000DE335 /* RKLBTicker */,
 				AE9DEB502DD395EB000DE335 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,9 +52,7 @@
 		AE9DEB502DD395EB000DE335 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE9DEB4F2DD395EB000DE335 /* MenuTicker.app */,
-				AE9DEB5D2DD395ED000DE335 /* MenuTickerTests.xctest */,
-				AE9DEB672DD395ED000DE335 /* MenuTickerUITests.xctest */,
+				AE9DEB4F2DD395EB000DE335 /* RKLB Ticker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +60,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE9DEB4E2DD395EB000DE335 /* MenuTicker */ = {
+		AE9DEB4E2DD395EB000DE335 /* RKLB Ticker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE9DEB712DD395ED000DE335 /* Build configuration list for PBXNativeTarget "MenuTicker" */;
+			buildConfigurationList = AE9DEB712DD395ED000DE335 /* Build configuration list for PBXNativeTarget "RKLB Ticker" */;
 			buildPhases = (
 				AE9DEB4B2DD395EB000DE335 /* Sources */,
 				AE9DEB4C2DD395EB000DE335 /* Frameworks */,
@@ -120,60 +73,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AE9DEB512DD395EB000DE335 /* MenuTicker */,
+				AE9DEB512DD395EB000DE335 /* RKLBTicker */,
 			);
-			name = MenuTicker;
+			name = "RKLB Ticker";
 			packageProductDependencies = (
 			);
 			productName = MenuTicker;
-			productReference = AE9DEB4F2DD395EB000DE335 /* MenuTicker.app */;
+			productReference = AE9DEB4F2DD395EB000DE335 /* RKLB Ticker.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AE9DEB5C2DD395ED000DE335 /* MenuTickerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE9DEB742DD395ED000DE335 /* Build configuration list for PBXNativeTarget "MenuTickerTests" */;
-			buildPhases = (
-				AE9DEB592DD395ED000DE335 /* Sources */,
-				AE9DEB5A2DD395ED000DE335 /* Frameworks */,
-				AE9DEB5B2DD395ED000DE335 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE9DEB5F2DD395ED000DE335 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				AE9DEB602DD395ED000DE335 /* MenuTickerTests */,
-			);
-			name = MenuTickerTests;
-			packageProductDependencies = (
-			);
-			productName = MenuTickerTests;
-			productReference = AE9DEB5D2DD395ED000DE335 /* MenuTickerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AE9DEB662DD395ED000DE335 /* MenuTickerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE9DEB772DD395ED000DE335 /* Build configuration list for PBXNativeTarget "MenuTickerUITests" */;
-			buildPhases = (
-				AE9DEB632DD395ED000DE335 /* Sources */,
-				AE9DEB642DD395ED000DE335 /* Frameworks */,
-				AE9DEB652DD395ED000DE335 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE9DEB692DD395ED000DE335 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				AE9DEB6A2DD395ED000DE335 /* MenuTickerUITests */,
-			);
-			name = MenuTickerUITests;
-			packageProductDependencies = (
-			);
-			productName = MenuTickerUITests;
-			productReference = AE9DEB672DD395ED000DE335 /* MenuTickerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,17 +95,9 @@
 					AE9DEB4E2DD395EB000DE335 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					AE9DEB5C2DD395ED000DE335 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = AE9DEB4E2DD395EB000DE335;
-					};
-					AE9DEB662DD395ED000DE335 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = AE9DEB4E2DD395EB000DE335;
-					};
 				};
 			};
-			buildConfigurationList = AE9DEB4A2DD395EB000DE335 /* Build configuration list for PBXProject "MenuTicker" */;
+			buildConfigurationList = AE9DEB4A2DD395EB000DE335 /* Build configuration list for PBXProject "RKLBTicker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -212,9 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE9DEB4E2DD395EB000DE335 /* MenuTicker */,
-				AE9DEB5C2DD395ED000DE335 /* MenuTickerTests */,
-				AE9DEB662DD395ED000DE335 /* MenuTickerUITests */,
+				AE9DEB4E2DD395EB000DE335 /* RKLB Ticker */,
 			);
 		};
 /* End PBXProject section */
@@ -230,20 +127,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE9DEB5B2DD395ED000DE335 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE9DEB652DD395ED000DE335 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -254,34 +137,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE9DEB592DD395ED000DE335 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE9DEB632DD395ED000DE335 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AE9DEB5F2DD395ED000DE335 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE9DEB4E2DD395EB000DE335 /* MenuTicker */;
-			targetProxy = AE9DEB5E2DD395ED000DE335 /* PBXContainerItemProxy */;
-		};
-		AE9DEB692DD395ED000DE335 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE9DEB4E2DD395EB000DE335 /* MenuTicker */;
-			targetProxy = AE9DEB682DD395ED000DE335 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AE9DEB6F2DD395ED000DE335 /* Debug */ = {
@@ -409,7 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MenuTicker/MenuTicker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RKLBTicker/RKLBTicker.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -417,7 +273,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "RKLB Menu Ticker";
+				INFOPLIST_KEY_CFBundleDisplayName = "RKLB Ticker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,7 +281,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonambas.MenuTicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonambas.RKLBTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -438,7 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MenuTicker/MenuTicker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RKLBTicker/RKLBTicker.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -446,7 +302,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "RKLB Menu Ticker";
+				INFOPLIST_KEY_CFBundleDisplayName = "RKLB Ticker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +310,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonambas.MenuTicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonambas.RKLBTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -462,74 +318,10 @@
 			};
 			name = Release;
 		};
-		AE9DEB752DD395ED000DE335 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonambas.MenuTickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuTicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MenuTicker";
-			};
-			name = Debug;
-		};
-		AE9DEB762DD395ED000DE335 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonambas.MenuTickerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuTicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MenuTicker";
-			};
-			name = Release;
-		};
-		AE9DEB782DD395ED000DE335 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonambas.MenuTickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MenuTicker;
-			};
-			name = Debug;
-		};
-		AE9DEB792DD395ED000DE335 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonambas.MenuTickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MenuTicker;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE9DEB4A2DD395EB000DE335 /* Build configuration list for PBXProject "MenuTicker" */ = {
+		AE9DEB4A2DD395EB000DE335 /* Build configuration list for PBXProject "RKLBTicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE9DEB6F2DD395ED000DE335 /* Debug */,
@@ -538,29 +330,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE9DEB712DD395ED000DE335 /* Build configuration list for PBXNativeTarget "MenuTicker" */ = {
+		AE9DEB712DD395ED000DE335 /* Build configuration list for PBXNativeTarget "RKLB Ticker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE9DEB722DD395ED000DE335 /* Debug */,
 				AE9DEB732DD395ED000DE335 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE9DEB742DD395ED000DE335 /* Build configuration list for PBXNativeTarget "MenuTickerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE9DEB752DD395ED000DE335 /* Debug */,
-				AE9DEB762DD395ED000DE335 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE9DEB772DD395ED000DE335 /* Build configuration list for PBXNativeTarget "MenuTickerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE9DEB782DD395ED000DE335 /* Debug */,
-				AE9DEB792DD395ED000DE335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

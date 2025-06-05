@@ -53,7 +53,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(linksLabel)
         
         menu.addItem(makeLinkMenuItem(title: "@rocketlab", urlString: "https://x.com/RocketLab"))
-        menu.addItem(makeLinkMenuItem(title: "rocketlabusa.com", urlString: "https://rocketlabusa.com"))
+        menu.addItem(makeLinkMenuItem(title: "rocketlabcorp.com", urlString: "https://rocketlabcorp.com"))
         menu.addItem(makeLinkMenuItem(title: "Financials", urlString: "https://investors.rocketlabusa.com/financials/quarterly-results/default.aspx"))
         
         menu.addItem(NSMenuItem.separator())
